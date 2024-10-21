@@ -1,0 +1,9 @@
+{
+   "welcome": "¡Bienvenido a nuestra aplicación internacionalizada!",
+   "title": "Ejemplo de Internacionalización de Next.js",
+   "about": "Acerca de",
+   "aboutDescription": "Aprende más sobre nuestra aplicación internacionalizada",
+   "aboutTitle": "Acerca de Nuestra Aplicación",
+   "aboutContent": "Este es un ejemplo simple de una aplicación Next.js internacionalizada usando el App Router.",
+   "backToHome": "Volver a Inicio"
+ }

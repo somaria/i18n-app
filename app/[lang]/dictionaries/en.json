@@ -1,0 +1,9 @@
+{
+   "welcome": "Welcome to our internationalized app!",
+   "title": "Next.js Internationalization Example",
+   "about": "About",
+   "aboutDescription": "Learn more about our internationalized app",
+   "aboutTitle": "About Our App",
+   "aboutContent": "This is a simple example of an internationalized Next.js app using the App Router.",
+   "backToHome": "Back to Home"
+ }
