@@ -1,5 +1,5 @@
 import { getDictionary } from './dictionaries'
-import LanguageSwitcher from './components/LanguageSwitcher'
+import LanguageSwitcher from '../../components/LanguageSwitcher'
 
 export default async function Home({ params: { lang } }: { params: { lang: string } }) {
    const dict = await getDictionary(lang)

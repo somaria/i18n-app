@@ -1,9 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
 import LanguageSwitcher from './LanguageSwitcher'
-import { getDictionary } from '../dictionaries'
+import { getDictionary } from '../app/[lang]/dictionaries'
 
-const Navbar = async ({ lang }: { lang: string }) => {
+import { Locale } from '../app/[lang]/dictionaries'
+
+const Navbar = async ({ lang }: { lang: Locale }) => {
   const dict = await getDictionary(lang)
 
   return (
