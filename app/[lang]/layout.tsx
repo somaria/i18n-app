@@ -9,17 +9,17 @@ export const metadata: Metadata = {
   description: 'A simple Next.js app with internationalization',
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
-  params,
+  params: { lang },
 }: {
   children: React.ReactNode
   params: { lang: string }
 }) {
   return (
-    <html lang={params.lang}>
+    <html lang={lang}>
       <body className={inter.className}>
-        <Navbar lang={params.lang} />
+        <Navbar lang={lang} />
         {children}
       </body>
     </html>

@@ -1,4 +1,5 @@
 {
+  "home": "Home",
    "welcome": "Welcome to our internationalized app!",
    "title": "Next.js Internationalization Example",
    "about": "About",
